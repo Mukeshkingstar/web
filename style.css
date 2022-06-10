@@ -7,7 +7,6 @@ color: var(--text-color)
 }
 :root{
   --text-color: #1b004c;
-  --text-color:;
   --bg:#5900FF;
 }body {
     font-size: 15pt;
