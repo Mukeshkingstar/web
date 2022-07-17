@@ -1,14 +1,17 @@
 *{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
 text-decoration: none;
 list-style: none;
 outline: none;
-color: var(--text-color)
+color: var(--text-color);
+
 }
 :root{
   --text-color: #1b004c;
-  --bg:#5900FF;
+  --bg:#5900fF;
+--text-color:#4244F6;
+--color:#1E0040
 }body {
     font-size: 15pt;
     margin: 0;
@@ -17,7 +20,7 @@ color: var(--text-color)
 }
 /* -------------+ nav code -------------*/
 h3{
-color:  var(--text-color);
+color:  var(--color);
 
 }
 nav{
@@ -30,10 +33,10 @@ nav{
  position: fixed;
  width: 100%;
  background: white
-}.bar{
+}.bar {
 font-size:30px;
 margin-right: 30px;
-color: var(--text-color)
+color: var(--color)
 }
 .sidebar{
   background:var(--text-color);
@@ -94,9 +97,9 @@ border-radius:   50% 50% 28% 72% / 56% 40% 60% 44%
   border:0.6px solid;
 }.contact form h2{
   padding-top: 15px;
-  padding-left: 15px
+  padding-left: 33px
 }.contact form input,textarea{
-  border: 2px solid;
+  border: 2px solid #eee;
   padding: 10px;
   margin: 5px;
 width: 210px;
@@ -119,7 +122,13 @@ border-radius: 10px
 }
 footer{
   margin-top: 20px;
-  background: var(--text-color);
+  background: #1E0040;
   padding: 10px;
   color: white
 }h5{color: white}
+h2{
+  color: var(--color)
+}
+.bar i{
+  color:var(--color)
+}
